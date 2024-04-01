@@ -9,7 +9,7 @@ const Home = (props) => {
             {/* Change cars to props.cars and remove the cars.json import above */}
             {props.cars.map((car, idx) => (
                 <Card key={idx} className="card">
-                    <CardContent className="text-gray">
+                    <CardContent className="text-grey">
                         <span>{car.Name.toUpperCase()}</span>
                         <ul>
                         <li>Miles_per_Gallon: {car["Miles_per_Gallon"]}</li>
